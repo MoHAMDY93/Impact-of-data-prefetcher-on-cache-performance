@@ -1,4 +1,5 @@
-# <a name="x7dbb4b5e883965f239261315dbaee582a4f67e2"></a>**ECE552 - Lab 4 Report: Impact of Data Prefetchers on Cache Performance**
+# <a name="x7dbb4b5e883965f239261315dbaee582a4f67e2"></a>**ECE322C Computer Architecture - Lab 4 Report: Impact of Data Prefetchers on Cache Performance**
+## **Course Coordinator: Dr. May Salama**
 **Agenda**
 
 1. Introduction to Data Prefetching
