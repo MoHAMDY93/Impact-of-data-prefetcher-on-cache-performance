@@ -1,5 +1,18 @@
-# <a name="x7dbb4b5e883965f239261315dbaee582a4f67e2"></a>**ECE322C Computer Architecture - Lab 4 Report: Impact of Data Prefetchers on Cache Performance**
-## **Course Coordinator: Dr. May Salama**
+# <a name="x7dbb4b5e883965f239261315dbaee582a4f67e2"></a>**Computer Architecture - Lab 4 Report: Impact of Data Prefetchers on Cache Performance**
+
+#### **Project Name:** Impact of Data Prefetchers on Cache Performance
+#### **Course Code:** ECE322C
+#### **Course Coordinator:** Dr. May Salama
+#### **Team Members**
+
+|Name|ID|
+| :-: | :-: |
+|Mohamed Alaa|30|
+|Abdelrahman Osama|13|
+|Mohamed Hamdy|27|
+|Abdullah Khaled|18|
+|Mohamed Abdelmonem|29|
+#
 **Agenda**
 
 1. Introduction to Data Prefetching
@@ -10,7 +23,6 @@
 1. Output Samples and Results Analysis
 1. Answers to Specified Questions
 1. Open-ended Data Prefetcher Implementation
-1. Team Member Contributions
 1. References
 
 ## **Introduction to the Project**
@@ -201,15 +213,7 @@ Compared to typical L1 cache sizes in modern processors (32-256 KB), our prefetc
 When testing our DCPT prefetcher with the provided benchmarks, we achieved: - L1 Miss Rate: 3.52% (Compress) - L2 Miss Rate: 4.89% (Compress) - Average Access Time: 1.524 (Compress) - Average miss rate across all three benchmarks: 1.98%
 
 These results demonstrate a significant improvement over both the next-line and stride prefetchers, particularly due to the prefetcher’s ability to capture complex access patterns that appear in real applications.
-## <a name="section-3-team-member-contributions"></a>**SECTION 3: Team Member Contributions**
 
-|Name|ID|
-| :-: | :-: |
-|Mohamed Alaa|30|
-|Abdelrahman Osama|13|
-|Mohamed Hamdy|27|
-|Abdullah Khaled|18|
-|Mohamed Abdelmonem|29|
 ## <a name="references"></a>**REFERENCES**
 [1] M. Grannes, M. Jahre, and L. Natvig, “Storage Efficient Hardware Prefetching using Delta-Correlating Prediction Tables,” Journal of Instruction-Level Parallelism, vol. 13, pp. 1–16, Jan. 2011. [Online]. Available: http://www.jilp.org/vol13/v13paper2.pdf.
 
